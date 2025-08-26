@@ -1,26 +1,112 @@
-# Heart_me_out
-Heart Me Out is an open-source online counselling platfor that allows users to securely log in, connect  with counsellors, and conduct real-time video sessions.
 
-<h1 align="center">Hi 👋, I'm Ajay Singh</h1>
-<h3 align="center">A BCA Student from Uttarakhand India.</h3>
+# 💬 Heart Me Out – Counselling Website  
 
+![HTML](https://img.shields.io/badge/Frontend-HTML-orange)  
+![CSS](https://img.shields.io/badge/Style-CSS-blue)  
+![JavaScript](https://img.shields.io/badge/Scripting-JavaScript-yellow)  
+![Vue](https://img.shields.io/badge/Framework-Vue.js-green)  
+![PHP](https://img.shields.io/badge/Backend-PHP-lightgrey)  
+![WebRTC](https://img.shields.io/badge/VideoCall-WebRTC-red)  
 
-- 🔭 I’m currently working on [Heart_Me_Out](file:///F:/heart_me_out-main/heart_me_out-main/index.html)
+A web-based **open-source counselling platform** where users can connect with counsellors via chat, forms, and **direct video calls**. The platform ensures **privacy, empathy, and support** without collecting personal data.  
 
-- 🌱 I’m currently learning *HTML5, CSS3,Talwind CSS,Javascript*
+> **Who is this for?** Individuals seeking free counselling support, developers building healthcare tools, or learners showcasing a **full-stack web project** (HTML, CSS, JS, Vue, PHP, WebRTC).  
 
-- 👯 I’m looking to collaborate on [Heart_Me_Out](file:///F:/heart_me_out-main/heart_me_out-main/index.html)
+---
 
-- 🤝 I’m looking for help with [Heart_Me_Out](file:///F:/heart_me_out-main/heart_me_out-main/index.html)
+## 🧭 Table of Contents
+- Overview  
+- Key Features  
+- Tech Stack  
+- Project Structure  
+- Setup  
+- How to Run  
+- Future Enhancements  
+- Author  
 
-- 👨‍💻 All of my projects are available at [https://github.com/ajaysingh6097](https://github.com/ajaysingh6097)
+---
 
-- 📫 How to reach me *ajaysingh60970@gmail.com*
+## 🔎 Overview
+**Heart Me Out** provides:  
+- A safe space to share thoughts without judgment  
+- Free counselling via **direct video calling** (powered by WebRTC)  
+- Options to choose between counsellors and counselling types  
+- Simple login system for access control  
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/ajay-singh-28957035b" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/ajay-singh-28957035b" height="30" width="40" /></a>
-</p>
+All pages are static/dynamic HTML with styling in CSS, interactivity with **JavaScript & Vue.js**, and video call integration.  
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
+---
+
+## 🧩 Key Features
+- 🏠 **Landing Page** with hero section & CTA buttons  
+- ℹ️ **About Page** to explain the platform’s mission  
+- 📩 **Feedback/Contact Form** with validation  
+- 🔐 **Login Page** for secure entry before video sessions  
+- 🎥 **Video Call (WebRTC)** for live counselling  
+- 🧑‍⚕️ **Counsellor & Client Selection Pages** with guided choices  
+- 🎨 Responsive & modern UI (CSS + animations)  
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, Vue.js  
+- **Backend:** PHP (for login/authentication)  
+- **Video Calling:** WebRTC + Scaledrone  
+- **UI Enhancements:** Custom JS (`front.js`, `special.js`)  
+
+---
+
+## 📂 Project Structure
+```
+Heart-Me-Out/
+├── index.html        # Landing page (Vue integrated)
+├── about.html        # About us page
+├── feedback.html     # Contact/feedback form
+├── login.html        # Login page (frontend validation)
+├── login.php         # Login backend logic
+├── video.html        # Video call page (WebRTC + Scaledrone)
+├── s2.html           # Client counselling type selection
+├── styles.css        # Main CSS styling
+├── front.js          # Button hover/click effects
+├── special.js        # Counsellor selection logic
+└── (images, assets)
+```
+
+---
+
+## ⚙️ Setup
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/<your-username>/heart-me-out.git
+   cd heart-me-out
+   ```
+2. Place all files in your web server (e.g., **XAMPP/Apache**).  
+3. Ensure PHP is enabled for `login.php`.  
+4. Internet connection required for **WebRTC/Scaledrone video calls**.  
+
+---
+
+## ▶️ How to Run
+1. Open `index.html` in a browser (or via localhost).  
+2. Navigate:  
+   - `About` → learn about the platform  
+   - `Feedback` → send a message  
+   - `Login` → access counsellor video session  
+3. After login → redirects to `video.html` where **WebRTC live video counselling** starts.  
+
+---
+
+## 🧭 Future Enhancements
+- ✅ Database integration (MySQL) for secure login & feedback storage  
+- ✅ Real-time chat system alongside video calls  
+- ✅ Admin dashboard for counsellor management  
+- ✅ Mobile-first UI redesign  
+- ✅ AI-powered chatbot for pre-counselling support  
+
+---
+
+## 👤 Author
+**Ajay Singh**  
+📧 <ajaysingh60970@gmail.com> • 🌐 [LinkedIn](https://www.linkedin.com/in/ajay-singh-28957035b/) • 💻 [GitHub](https://github.com/ajaysingh6097)  
+
+If you found this useful, please ⭐ star the repo!  
